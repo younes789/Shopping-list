@@ -1,0 +1,75 @@
+body {
+  background-image: url(../img/cart.jpg);
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 5px 3px 2px #556;
+}
+
+#intro {
+  font-size: 1.1em;
+  color: #753;
+  font-weight: bold;
+}
+
+#userinput {
+  height: 2em;
+  padding: 0 5px;
+}
+
+#userinput:hover {
+  background: #110;
+  color: #fff;
+}
+
+#enter {
+  height: 2em;
+  width: 6em;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #986;
+  font-weight: bold;
+}
+
+#enter:hover {
+  background: #011112;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  font-size: 1.5em;
+  line-height: 1.8em;
+  position: relative;
+}
+.done {
+  text-decoration: line-through;
+}
+
+.delete {
+  border-radius: 35px;
+  cursor: cell;
+  opacity: 0;
+  transition: opacity ease-in-out 500ms;
+}
+
+li:hover .delete {
+  opacity: 1;
+}
